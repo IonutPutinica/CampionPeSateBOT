@@ -31,5 +31,15 @@ public class Entity {
 		this.numberOfControlledTerritories=numberOfControlledTerritories=number;
 	}
 	
+	//decreses the number of controlled territories of an entity by 1
+	public void reduceNumberOfControlledTerritoriesBy1() {
+		numberOfControlledTerritories--;
+	}
+	
+	//increases the number of controlled territories of an entity by 1
+	public void increaseNumberOfControlledTerritoriesBy1()
+	{
+		numberOfControlledTerritories++;
+	}
 	
 }
