@@ -1,8 +1,8 @@
 import java.util.ArrayList;
 public class CampionPeSate {
-	private String entity;
+	private Entity entity;
 	private ArrayList<String> entities;
-	public CampionPeSate(ArrayList entities, String entity)
+	public CampionPeSate(ArrayList entities, Entity entity)
 	{
 		this.entities=entities;
 		this.entity=entity;
