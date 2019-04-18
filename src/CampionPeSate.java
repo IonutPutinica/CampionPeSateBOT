@@ -7,4 +7,5 @@ public class CampionPeSate {
 		this.entities=entities;
 		this.entity=entity;
 	}
+	
 }
