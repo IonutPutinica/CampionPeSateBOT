@@ -1,5 +1,10 @@
 
 public class Territory {
 	private int number;
-	private int name;
+	private String name;
+	public Territory(int number, String name)
+	{
+		this.number=number;
+		this.name=name;
+	}
 }
